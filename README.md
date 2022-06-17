@@ -3,3 +3,10 @@
 ```shell
 go run main.go
 ```
+
+## DOCKER 실행
+
+```shell
+docker built -t packman-go .
+docker run -it packman-go
+```
